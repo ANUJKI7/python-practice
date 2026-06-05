@@ -5,7 +5,7 @@ class student():
     self.cgpa=cgpa
   
   def get_cgpa(self):
-    return self.age
+    return self.cgpa
 
 s1=student("anuj",22,9.0)
 s2=student("adarsh",20,9.8)
