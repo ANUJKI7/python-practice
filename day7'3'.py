@@ -6,7 +6,7 @@ class teacher(employes):
         self.subject=subject
 class accountant(teacher):
     def __init__(self,role,subject):
-        super().__init__(subject)
+        super().__init__(subject) #this super key used for the inherit the  parent class attributes
         self.role=role
 acc1=accountant("ca","teacher")
 print(acc1.role,acc1.subject,acc1.start_time,acc1.end_time)
