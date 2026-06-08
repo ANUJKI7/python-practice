@@ -1,6 +1,6 @@
 # polymporphsim example
 
-class employee:  #function overriding
+class employee:  # method overriding
     def get_desination(self):
         print("desination=employee")
 
