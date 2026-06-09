@@ -1,3 +1,4 @@
+#abstraction second type
 # DUCK typing
 
 class teacher:
