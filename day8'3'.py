@@ -9,10 +9,10 @@ class accountant:
     def get_desination(self):
         print("desination=accountant")
     
-teacher=teacher()
-teacher.get_desination()
+object=teacher()
+object.get_desination()
 
-accountant=accountant()
-accountant.get_desination()
+object=accountant()
+object.get_desination()
 
 
